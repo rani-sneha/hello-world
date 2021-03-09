@@ -1,8 +1,8 @@
 # hello-world
+
 import java.util.*;
 public class MiniProject1 {
-
-	public static void main(String[] args) {
+      public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter a large numer :");
 		String num=sc.nextLine();
