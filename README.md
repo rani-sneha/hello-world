@@ -19,7 +19,7 @@ public class MiniProject1 {
 					}
 		StringBuffer st1=new StringBuffer(st);
 		st1.setCharAt(l-1, '.');
-		System.out.println("The unique digits present in "+num+" are " +st1);
+		System.out.println("The unique digits present in "+re_num+" are " +st1);
 		for(int i=0; i<st1.length(); i++) {
 			for(int j=0; j<st1.length(); j++) {
 				temp=st1.charAt(i);
